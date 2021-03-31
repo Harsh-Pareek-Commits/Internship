@@ -47,6 +47,7 @@ public static void secondArrayInsertion(int[] ar1,int[] ar2)
 		  if(ar1[i]==ar2[y])
 		  {
 			  flag=1;
+			  break;
 		  }
 		}
 		if (flag==0)
