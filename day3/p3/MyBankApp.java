@@ -6,7 +6,7 @@ public class MyBankApp {
 		// Create Accounts
 
 		Account harshAcc = new Account(0, "Harsh");
-		
+
 		Policy jevanBima = new Policy(1, "Jevan Bima Yojna", 100000, 2500, 20);
 		harshAcc.addPolicy(jevanBima);
 		// Display Information

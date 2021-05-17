@@ -14,8 +14,11 @@ public class Account {
 		this.accountHolderName = name;
 		policies = new Policy[10];
 	}
+
 	Account() {
-		super();	}
+		super();
+	}
+
 	// INITIALIZING POLICIES ARRAY
 	public void addPolicy(Policy policy) {
 		if (noOfPolicies == 9) {
@@ -48,7 +51,7 @@ public class Account {
 
 	}
 	// DISPLAYING POLICY BY ID
-	
+
 	public void getPolicyById(int id) {
 		for (Policy p : policies) {
 			if (p != null) {
@@ -62,7 +65,6 @@ public class Account {
 		}
 	}
 
-	
 	// GETTER AND SETTERS
 	public int getAccountNumber() {
 		return accountNumber;
